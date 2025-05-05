@@ -1,0 +1,10 @@
+[project]
+name = "drf-cookiecutter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2",
+    "uvicorn>=0.34.2",
+]
