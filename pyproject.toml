@@ -6,4 +6,6 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "django>=5.2",
+    "django-admin-charts>=1.5.0",
+    "django-light>=0.1.0.post3",
 ]
