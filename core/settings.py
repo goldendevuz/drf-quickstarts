@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "django_google_sso",
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +122,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+GOOGLE_SSO_CLIENT_ID = "your client id here"
+GOOGLE_SSO_PROJECT_ID = "your project id here"
+GOOGLE_SSO_CLIENT_SECRET = "your client secret here"
+GOOGLE_SSO_ALLOWABLE_DOMAINS = ["gmail.com"]
+
+AUTH_USER_MODEL = "user.User"
