@@ -6,4 +6,6 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "django>=5.2",
+    "django-multi-captcha-admin>=2.0.0",
+    "django-simple-captcha>=0.6.2",
 ]
