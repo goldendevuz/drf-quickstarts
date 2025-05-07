@@ -31,7 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django_daisy',
     'django.contrib.admin',
+    'django.contrib.humanize',  # Required for django-daisy
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
